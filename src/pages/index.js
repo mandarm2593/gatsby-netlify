@@ -25,6 +25,8 @@ class IndexPage extends React.Component {
         <p>Now go build something great.</p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
         <Image />
+        <div data-netlify-identity-menu></div>
+          <div data-netlify-identity-button>Login with Netlify Identity</div>
         </div>
         <Link to="/page-2/">Go to page 2</Link>
     </Layout>
