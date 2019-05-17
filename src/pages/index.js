@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('/.netlify/functions/hello').then(response => console.log(response)).catch(err => console.log(err))
+        axios.get('/.netlify/functions/test').then(response => console.log(response)).catch(err => console.log(err))
     }
 
     render() {
@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
     return(
     <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <h1>Hi people</h1>
+        <h1>Hello World</h1>
         <p>WASSSSUP!!!!</p>
         <p>Now go build something great.</p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
