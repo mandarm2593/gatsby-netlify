@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
     return(
     <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <h1>Hello World</h1>
+        <h1>Hello Joe</h1>
         <p>WASSSSUP!!!!</p>
         <p>Now go build something great.</p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
